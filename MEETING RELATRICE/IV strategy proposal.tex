@@ -1,0 +1,52 @@
+\documentclass{article}
+\begin{document}
+
+    \section{IV proposal}
+    $Y$ can be:
+    \begin{enumerate}
+        \item employment status (can only be done on a small portion of the dataset, pre-retirement: 50-66ish y.o.)
+        \item social network quality and quantity 
+            \begin{enumerate}
+                \item in this case having a regressor pandemic=1 or similar is crucial to avoid conflating the effects of pandemic and MH worsening 
+            \end{enumerate}
+        \item health outcomes
+            \begin{enumerate}
+                \item decline in cognitive ability + memory tasks performance
+                \item self-reliance in everyday activities
+                \item physical activity 
+                \item grip strenght (not sure what it could measure)
+                \item needing external care (from family and professionals)
+                \item prevalence/worsening of medical conditions (heart disease, dementia\dots)
+            \end{enumerate}
+    \end{enumerate}
+Identification issues:
+\begin{enumerate}
+    \item Reverse causality for all possible Y 
+    \item Measurement error in MH (measured through questionnaires and self-reports)
+    \item ???
+\end{enumerate}
+IV strategy:
+\begin{enumerate}
+    \item Instruments often used in the literature:
+        \begin{enumerate}
+            \item number of psychiatric disorders before 18
+            \item religious attendance to handle problems (used in Chatterji et al 2007)
+            \item number of parents psychiatric disorders 
+            \item recent friends' death (not family to avoid correlation with model error)
+        \end{enumerate}
+
+    \item My other instruments proposals:
+        \begin{enumerate}
+            \item Number of days spent under strict lockdown measures (DATASET: Oxford COVID19 Government Response Tracker (n of deaths per 100000 and n of days with stringent control measures))
+            \item Severity of childhood conditions (abuse, neglect - should check the detail of this info in SHARE)
+            \item recent death in social network
+        \end{enumerate}
+\end{enumerate}
+Covariates in the model: 
+\begin{enumerate}
+    \item Individual characteristics (age, gender, educ, living conditions, income\dots)
+    \item Country or region FE
+    \item Others: \dots
+\end{enumerate}
+
+\end{document}
