@@ -4,8 +4,8 @@
     \section{IV proposal}
     $Y$ can be:
     \begin{enumerate}
-        \item employment status (can only be done on a small portion of the dataset, pre-retirement: 50-66ish y.o.)
-        \item social network quality and quantity 
+        \item employment status (can only be done on a smaller portion of the dataset, pre-retirement: 50-66ish y.o.)
+        \item social network quality and quantity (convincing?)
             \begin{enumerate}
                 \item in this case having a regressor pandemic=1 or similar is crucial to avoid conflating the effects of pandemic and MH worsening 
             \end{enumerate}
@@ -29,15 +29,26 @@ IV strategy:
 \begin{enumerate}
     \item Instruments often used in the literature:
         \begin{enumerate}
-            \item number of psychiatric disorders before 18
-            \item religious attendance to handle problems (used in Chatterji et al 2007)
-            \item number of parents psychiatric disorders 
-            \item recent friends' death (not family to avoid correlation with model error)
+            \item number of psychiatric disorders before 18 (available in SHARE? to check)
+            \item religious attendance to handle problems (used in Chatterji et al 2007, not convincing)
+            \item number of parents' psychiatric disorders 
+            \item recent friends' death (not family to avoid correlation with model error, very good)
         \end{enumerate}
 
     \item My other instruments proposals:
         \begin{enumerate}
-            \item Number of days spent under strict lockdown measures (DATASET: Oxford COVID19 Government Response Tracker (n of deaths per 100000 and n of days with stringent control measures))
+            \item Number of days spent under strict lockdown measures:
+                \begin{enumerate}
+                    \item DATASET: Oxford COVID19 Government Response Tracker (n of deaths per 100000 and n of days with stringent control measures). 
+                    \begin{enumerate}
+                        \item BEST: OxCGRT daily STRINGENCY INDEX. \newline Link: https://ourworldindata.org/covid-stringency-index . Filename: covid-containment-and-health-index .
+                        \item Stringency Index metrics: school closures; workplace closures; cancellation of public events; restrictions on public gatherings; closures of public transport; stay-at-home requirements; public information campaigns; restrictions on internal movements; and international travel controls.
+                        \item Containment and Health Index metrics: school closures; workplace closures; cancellation of public events; restrictions on public gatherings; closures of public transport; stay-at-home requirements; public information campaigns; restrictions on internal movements; international travel controls; testing policy; extent of contact tracing; face coverings; and vaccine policy. BETTER ONE.
+                        \item Both indexes between 0 and 100 (strictest).
+                    \end{enumerate}
+                    
+                    \item Travel restrictions implemented to control the spread of COVID-19 are lifted in the EU. \newline Link: https://reopen.europa.eu/en . 
+                \end{enumerate}
             \item Severity of childhood conditions (abuse, neglect - should check the detail of this info in SHARE)
             \item recent death in social network
         \end{enumerate}
@@ -46,7 +57,41 @@ Covariates in the model:
 \begin{enumerate}
     \item Individual characteristics (age, gender, educ, living conditions, income\dots)
     \item Country or region FE
+    \item Having vaccine available or not (OxGRT data)
     \item Others: \dots
+    \item Age, gender, marital status (dn014\_), spouse alive, spose in good health, divorced (dn018\_). Check coverscreen for all of these and more.
+    \item Number of children
+    \item Number of grandchildren
+    \item Number of siblings
+    \item Amount spent on food at home (co002e) and amount spent on food outside the home (co003e) as proxy for going out.
+    \item Is household able to make ends meet (co007\_) for financial stress.
+    \item Consume home produced food (co010\_).
+    \item Household size
+    \item Immigrant (dn004\_)
+    \item Education level (dn010\_) and years of educ (dn041\_)
+    \item Natural parent still alive (dn026\_1 mother and dn026\_2 father)
+    \item Health of parent (dn033\_1 mother, and dn033\_2 father)
+    \item Employment and pensions (ep coded vars)
+    \item adl variable measures limitations with daily activities
+    \item 
+\end{enumerate}
+Predicting MH:
+\begin{enumerate}
+    \item EURO-D depression scale
+    \item UCLA loneliness scale
+    \item SN size and quality
+    \item "mh" coded vars 
+    \item "te" vars for time expenditure information 
+    \item conversation vars (from ch\_q10a to ch\_q10e)
+    \item 
+\end{enumerate}
+Notes:
+\begin{enumerate}
+    \item (firstwave) variable identifies first time individual appeared in SHARE! Use to find longitudinal sample.
+    \item "ex" coded vars measure EXPECTATIONS about the future, good for MH prediction?
+    \item "cv\_" coded vars give better named vars on children information
+    \item NUTS level 1 information on individuals location (REGIONAL, very good).
+    \item SOCIAL NETWORK has been tracked across waves 6 - 7 - 8, meaning we know how and if the networks changed. How can I use this information?
 \end{enumerate}
 
 \end{document}
