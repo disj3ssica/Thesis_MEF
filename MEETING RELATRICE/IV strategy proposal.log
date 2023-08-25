@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.1)  25 AUG 2023 18:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.1)  25 AUG 2023 18:49
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -65,7 +65,7 @@ Overfull \hbox (0.66344pt too wide) in paragraph at lines 46--47
  []
 
 [2]
-Overfull \hbox (3.65242pt too wide) in paragraph at lines 93--94
+Overfull \hbox (3.65242pt too wide) in paragraph at lines 94--95
 []\OT1/cmr/m/n/10 NUTS level 1 in-for-ma-tion on in-di-vid-u-als lo-ca-tion (RE-GIONAL, very good). 
  []
 
@@ -79,7 +79,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  34i,5n,38p,545b,394s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on "IV strategy proposal.pdf" (3 pages, 48644 bytes).
+Output written on "IV strategy proposal.pdf" (3 pages, 48906 bytes).
 PDF statistics:
  29 PDF objects out of 1000 (max. 8388607)
  17 compressed objects within 1 object stream
