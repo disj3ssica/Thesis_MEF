@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.1)  1 SEP 2023 18:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.1)  1 SEP 2023 18:49
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -38,7 +38,7 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count194
 \l__pdf_internal_box=\box52
-) (./Thesis_JC.aux (./introduction.aux))
+) (./Thesis_JC.aux (./0introduction.aux) (./1mentalhealth.aux) (./2researchquestion.aux) (./3data.aux) (./4strategy.aux) (./5estimation.aux) (./6discussion.aux) (./7conclusion.aux) (./8references.aux) (./9appendix.aux))
 \openout1 = `Thesis_JC.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -74,24 +74,126 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [3] [4
 
 ]
-\openout2 = `introduction.aux'.
+\openout2 = `0introduction.aux'.
+
+ (./0introduction.tex
+Chapter 1.
+) [1
 
 
-No file introduction.tex.
-(./Thesis_JC.aux (./introduction.aux)) ) 
+]
+\openout2 = `1mentalhealth.aux'.
+
+ (./1mentalhealth.tex [2
+
+
+
+
+]
+Chapter 2.
+
+Overfull \hbox (8.33345pt too wide) in paragraph at lines 1--1
+|[]\OT1/cmr/bx/n/24.88 mental health lit-er-a-ture re-
+ []
+
+) [3]
+\openout2 = `2researchquestion.aux'.
+
+ (./2researchquestion.tex [4
+
+
+
+
+]
+Chapter 3.
+) [5]
+\openout2 = `3data.aux'.
+
+ (./3data.tex [6
+
+
+
+
+]
+Chapter 4.
+) [7]
+\openout2 = `4strategy.aux'.
+
+ (./4strategy.tex [8
+
+
+
+
+]
+Chapter 5.
+) [9]
+\openout2 = `5estimation.aux'.
+
+ (./5estimation.tex [10
+
+
+
+
+]
+Chapter 6.
+) [11]
+\openout2 = `6discussion.aux'.
+
+ (./6discussion.tex [12
+
+
+
+
+]
+Chapter 7.
+) [13]
+\openout2 = `7conclusion.aux'.
+
+ (./7conclusion.tex [14
+
+
+
+
+]
+Chapter 8.
+) [15]
+\openout2 = `8references.aux'.
+
+ (./8references.tex [16
+
+
+
+
+]
+Chapter 9.
+) [17]
+\openout2 = `9appendix.aux'.
+
+ (./9appendix.tex [18
+
+
+
+
+]
+Chapter 10.
+) [19] [20
+
+
+
+] (./Thesis_JC.aux (./0introduction.aux) (./1mentalhealth.aux) (./2researchquestion.aux) (./3data.aux) (./4strategy.aux) (./5estimation.aux) (./6discussion.aux) (./7conclusion.aux) (./8references.aux) (./9appendix.aux)) ) 
 Here is how much of TeX's memory you used:
- 808 strings out of 476024
- 13717 string characters out of 5794017
- 1850382 words of memory out of 5000000
- 21314 multiletter control sequences out of 15000+600000
+ 1061 strings out of 476024
+ 21064 string characters out of 5794017
+ 1852382 words of memory out of 5000000
+ 21502 multiletter control sequences out of 15000+600000
  516889 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 33i,6n,39p,197b,186s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 39i,6n,44p,222b,186s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb>
-Output written on Thesis_JC.pdf (4 pages, 60883 bytes).
+Output written on Thesis_JC.pdf (24 pages, 84075 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 111 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
