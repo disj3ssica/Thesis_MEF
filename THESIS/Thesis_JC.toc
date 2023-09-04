@@ -1,9 +1,15 @@
-\contentsline {chapter}{\numberline {1}mental health}{3}{}%
-\contentsline {chapter}{\numberline {2}research question}{5}{}%
-\contentsline {chapter}{\numberline {3}data}{7}{}%
-\contentsline {chapter}{\numberline {4}strategy}{9}{}%
-\contentsline {chapter}{\numberline {5}estimation}{11}{}%
-\contentsline {chapter}{\numberline {6}discussion}{13}{}%
-\contentsline {chapter}{\numberline {7}conclusion}{15}{}%
-\contentsline {chapter}{\numberline {8}references}{17}{}%
-\contentsline {chapter}{\numberline {9}appendix}{19}{}%
+\contentsline {chapter}{\numberline {1}Mental Health}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Defining mental health}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Exploring the data}{4}{section.1.2}%
+\contentsline {paragraph}{Gender differences}{4}{paragraph*.3}%
+\contentsline {paragraph}{Cohort specificity}{4}{paragraph*.4}%
+\contentsline {section}{\numberline {1.3}Measurement via psychometric tools}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4}MH and COVID19}{4}{section.1.4}%
+\contentsline {chapter}{\numberline {2}research question}{5}{chapter.2}%
+\contentsline {chapter}{\numberline {3}data}{7}{chapter.3}%
+\contentsline {chapter}{\numberline {4}strategy}{9}{chapter.4}%
+\contentsline {chapter}{\numberline {5}estimation}{11}{chapter.5}%
+\contentsline {chapter}{\numberline {6}discussion}{13}{chapter.6}%
+\contentsline {chapter}{\numberline {7}conclusion}{15}{chapter.7}%
+\contentsline {chapter}{\numberline {8}References}{17}{chapter.8}%
+\contentsline {chapter}{\numberline {9}appendix}{19}{chapter.9}%
