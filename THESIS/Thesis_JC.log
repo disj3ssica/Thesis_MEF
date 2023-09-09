@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.1)  9 SEP 2023 21:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.1)  9 SEP 2023 22:58
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -384,35 +384,43 @@ Package: fp-eval 1995/04/03
 \@dtl@read=\read2
 \dtl@entrycr=\count318
 \dtl@omitlines=\count319
+) (c:/texlive/2022/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip57
+\enit@outerparindent=\dimen169
+\enit@toks=\toks47
+\enit@inbox=\box54
+\enit@count@id=\count320
+\enitdp@description=\count321
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 29.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 30.
  (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (c:/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count320
-\l__pdf_internal_box=\box54
+\l__color_backend_stack_int=\count322
+\l__pdf_internal_box=\box55
 ) (./Thesis_JC.aux (./0introduction.aux) (./1mentalhealth.aux) (./2researchquestion.aux) (./3data.aux) (./4strategy.aux) (./5estimation.aux) (./6discussion.aux) (./7conclusion.aux) (./8references.aux) (./9appendix.aux))
 \openout1 = `Thesis_JC.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -448,24 +456,24 @@ LaTeX Font Info:    ... okay on input line 29.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 29.
+Package hyperref Info: Link coloring OFF on input line 30.
 (./Thesis_JC.out) (./Thesis_JC.out)
 \@outlinefile=\write4
 \openout4 = `Thesis_JC.out'.
 
  (c:/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count321
-\scratchdimen=\dimen169
-\scratchbox=\box55
-\nofMPsegments=\count322
-\nofMParguments=\count323
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count324
-\MPscratchDim=\dimen170
-\MPnumerator=\count325
-\makeMPintoPDFobject=\count326
-\everyMPtoPDFconversion=\toks48
+\scratchcounter=\count323
+\scratchdimen=\dimen170
+\scratchbox=\box56
+\nofMPsegments=\count324
+\nofMParguments=\count325
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count326
+\MPscratchDim=\dimen171
+\MPnumerator=\count327
+\makeMPintoPDFobject=\count328
+\everyMPtoPDFconversion=\toks49
 ) (c:/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -475,9 +483,9 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 <GRAPHS/logounipd.png, id=84, 1204.5pt x 1204.5pt>
 File: GRAPHS/logounipd.png Graphic file (type png)
 <use GRAPHS/logounipd.png>
-Package pdftex.def Info: GRAPHS/logounipd.png  used on input line 34.
+Package pdftex.def Info: GRAPHS/logounipd.png  used on input line 35.
 (pdftex.def)             Requested size: 56.9055pt x 56.90189pt.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 62.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 63.
  (c:/texlive/2022/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [1
@@ -488,7 +496,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 <GRAPHS/firma_Jessica_Cremonese.jpg, id=93, 1111.90407pt x 441.14813pt>
 File: GRAPHS/firma_Jessica_Cremonese.jpg Graphic file (type jpg)
 <use GRAPHS/firma_Jessica_Cremonese.jpg>
-Package pdftex.def Info: GRAPHS/firma_Jessica_Cremonese.jpg  used on input line 80.
+Package pdftex.def Info: GRAPHS/firma_Jessica_Cremonese.jpg  used on input line 81.
 (pdftex.def)             Requested size: 113.81102pt x 45.15402pt.
  [2 <./GRAPHS/firma_Jessica_Cremonese.jpg>] (./Thesis_JC.toc
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 2.
@@ -613,10 +621,10 @@ Chapter 7.
 
 ]
 Chapter 8.
-\dtldb@list=\toks49
-\dtlkeys@list=\toks50
-\dtlrows@list=\count327
-\dtlcols@list=\count328
+\dtldb@list=\toks50
+\dtlkeys@list=\toks51
+\dtlrows@list=\count329
+\dtlcols@list=\count330
 [23]
 Overfull \hbox (0.9193pt too wide) in paragraph at lines 40--40
 []\OT1/ptm/m/n/12 Lakner, Christoph, et al. ``How much does re-duc-ing in-equal-ity mat-ter for global poverty?."
@@ -651,15 +659,15 @@ Package rerunfilecheck Info: File `Thesis_JC.out' has not changed.
 (rerunfilecheck)             Checksum: 215B0A6F251B7B5E6B9F6960099F9F3E;3081.
  ) 
 Here is how much of TeX's memory you used:
- 12859 strings out of 476024
- 203021 string characters out of 5794017
+ 13190 strings out of 476024
+ 208791 string characters out of 5794017
  1859382 words of memory out of 5000000
- 32888 multiletter control sequences out of 15000+600000
+ 33215 multiletter control sequences out of 15000+600000
  536360 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 273i,6n,250p,1202b,2071s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 273i,6n,250p,1202b,2111s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Thesis_JC.pdf (32 pages, 675041 bytes).
+Output written on Thesis_JC.pdf (32 pages, 675862 bytes).
 PDF statistics:
  391 PDF objects out of 1000 (max. 8388607)
  338 compressed objects within 4 object streams
