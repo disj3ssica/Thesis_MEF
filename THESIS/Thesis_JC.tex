@@ -7,6 +7,22 @@
 \onehalfspacing         % Interlinea 1,5
 \usepackage{hyperref}
 \usepackage{graphicx}
+\usepackage{datatool}
+
+\newcommand{\sortitem}[1]{%
+  \DTLnewrow{list}
+  \DTLnewdbentry{list}{Description}{#1}
+}
+
+\newenvironment{sortedlist}{\DTLifdbexists{list}{\DTLcleardb{list}}{\DTLnewdb{list}}}{%
+  \DTLsort{Description}{list}%
+  \begin{enumerate}%
+    \DTLforeach*{list}{\theDesc=Description}{%
+      \item \theDesc
+    }%
+  \end{enumerate}%
+}
+
 
 \titleformat{\chapter}[hang]{\normalfont\Huge\bfseries}{\thechapter}{1em}{}
 
