@@ -31,15 +31,80 @@ A frequently utilized dataset for this line of research is the Survey of Health,
 
 
 \subsection{Mental Health and Labor Market Outcomes}
+    The relationship between mental health and labor market outcomes is intricate, which may explain why existing research on the subject is limited and largely focuses on correlational findings. Labor market conditions encompass a wide range of factors, including job security, work-life balance, income levels, self-assessed job satisfaction, social support, and employment status. Additionally, specific working conditions—such as remote versus in-person work—and skill mismatches can influence an individual's mental well-being. In turn, these mental health states can also impact labor market outcomes. A systematic review by Rönnblad et al. (2019) investigated the effects of precarious employment on mental health, and mostly found very low quality evidence of negative effects of temporary employment or unpredictable work hours on mental health, and moderate quality of evidence was found for perceived job insecurity having adverse effects on mental health. 
 
+    As an example of the many correlational studies, in Nadinloyi et al.'s (2013), the authors explore the correlation between job satisfaction and mental health among employees in two industrial firms. They assess individual conditions using Birfield's Job Satisfaction Scale and the Ruth Questionnaire and Scale. The study employs multiple regression analysis, t-tests, and Pearson correlation coefficients as its methodology. However, it does not address the potential issue of reverse causality between job satisfaction and mental well-being, thereby limiting the interpretation of the results to correlational rather than causal relationships. 
 
-\subsection{Mental Health and Social Capital}
-
-
-\subsection{Mental Health and Social Networks}
+    In contrast to the method employed by Nadinloyi et al. (2013), Banerjee et al. (2017), Frijters et al. (2014) and Frijters et al. (2010) tackle endogeneity issues in two different ways. Banerjee et al. (2017) explore the impact of psychiatric disorders on labor market performance by utilizing a structural equation model that incorporates a latent index for mental health. This index is formulated based on symptoms from four specific psychiatric conditions (major depression, panic attacks, social phobia, and generalized anxiety disorder) as well as demographic, socioeconomic, and health-related variables. To address endogeneity, the study employs a Multiple Indicator and Multiple Cause (MIMIC) model, with the aid of covariance instruments. The findings reveal that mental illness negatively influences both employment rates and labor force participation. The study estimates that improving mental health could potentially increase employment for 3.5 million people and reduce absenteeism costs by approximately \$21.6 billion.
+    Frijters et al. (2010) focus on the impact of mental health on employment status. Mental health is measured as an index based on the Short-Form General Health Survey (SF-36) answers. To tackle endogeneity concerns, their preferred specification is an Instrumental Variable (IV) Probit model, using the death of a close friends as an instrument for mental health to control for endogeneity concerns. The paper finds that a one standard deviation decline in mental health leads to a drop in the probability of labor market participation by around 19 percentage points. 
+    Finally, Frijters et al. (2014) also measures mental well-being with the SF-36 Survey and exploits the death of a close friend as an instrument, however the method of choice is an Instrumental Variables Fixed Effects (IV-FE) model applied to high-quality Australian panel data spanning 10 waves. Results prove that mental health has a substantial negative impact on employment, with a one standard deviation in mental health leading to a 30 percentage point reduction in the likelihood of being employed. 
 
 
 \subsection{Mental Health and Loneliness}
+% difference between isolation and loneliness, and their relation
+% relevance for mental health
+    The body of literature exploring the relationship between loneliness and mental health faces the same methodological challenges, including issues of reverse causality, unobserved variables, and measurement errors in the independent variable. Studies in this domain can be categorized into three distinct groups: 
+    1) pre-pandemic studies that largely fall short in adequately addressing endogeneity concerns; 
+    2) research leveraging pandemic-related data to investigate the link between loneliness and mental health;
+    3) a subset of papers employing more rigorous methodologies to provide credible insights into the relationship.
+
+    Fokkema et al. (2012) employ a cross-country comparative approach to analyze loneliness among older adults. Health variables include perceived health, functional limitations, and problems with seeing or hearing, all measured on a 5-point scale ranging from 'excellent' to 'poor.' The study utilizes hierarchical logistic regression to explore the factors contributing to varying levels of loneliness across countries. The dependent variable, 'loneliness,' is assessed through a single-item measure derived from the CES-D (depression) scale.
+    The findings indicate that countries with older populations, a higher proportion of women, and a greater number of unpartnered older adults tend to report elevated levels of loneliness. However, the unaddressed endogenous relationship between physical and mental health limits the causal interpretation of the results.
+
+    A paper by Alves et al. (2014) aims at understanding the predictors of feelings of loneliness in middle-aged and older adults in Portugal through logistic regression analysis using survey data (socio-demographic variables, residence characteristics, measures of health). They find that variables such as age, gender, marital status, living arrangements, region, type of housing, professional status and income are all significantly associated with feelings of loneliness. 
+
+    Niedzwiedz et al. (2016) investigates the relationship of loneliness and household wealth in older adults, focusing on the mediating role of social participation. Mental well-being is measured with the R-UCLA loneliness scale, and household wealth is measured by the sum of financial and real assets, minus liabilities. The authors recognize the limitations of a cross-sectional logistic regression study, and find that household wealth is associated with higher levels of loneliness. They also identify social participation as a key mediating factor, noting that certain forms of social engagement are particularly effective in alleviating loneliness.
+
+    Logistic regression is also the tool of choice in Jarach et al. (2021), which uses SHARE data to investigate the relation between loneliness and the reversion of frailty in older Europeans. Loneliness is measured with the UCLA-L scale, and social isolation is measured with a custom index. 
+    Multinomial logistic regression is used to compute relative risk ratios for changing frailty status according to levels of social isolation and loneliness. Their findings indicate that both loneliness and social isolation are significantly linked to the increased risk of individuals transitioning from a robust to a frail or pre-frail state.
+
+    Loneliness may also have an association with cognitive impairment, as analysed by Luchetti et al. (2019), which investigate the relationship between loneliness and cognitive impairment using data from SHARE. To assess cognitive performance, they utilize the memory and verbal fluency tasks provided by SHARE, while employing the R-UCLA scale to gauge loneliness. The researchers opt for Cox regression hazard models to analyze the time-to-event relationship from baseline predictors to the onset of cognitive issues. Sensitivity analyses reinforce the robustness of their findings, revealing that loneliness is a significant predictor of cognitive impairment, even after adjusting for variables such as age, sex, education, and depressive symptoms.
+
+    Lee et al. (2020) focus on exploring loneliness among older adults in the Czech Republic. They employ the UCLA-L scale to measure loneliness and use the EURO-D scale to evaluate mental and emotional health. While the study aims to understand the relationship between mental and physical health, its methodology is limited to regression analysis, analysis of variance (ANOVA), and descriptive statistics, without addressing the aforementioned endogeneity issues.
+
+    Hajek and König (2022) employ SHARE longitudinal data and utilize linear fixed-effects regression to account for unobservable variables while investigating the factors associated with loneliness in older Europeans. Their analysis reveals that loneliness intensifies with factors such as aging, alterations in marital status, reductions in log income, deteriorating self-assessed health, and functional decline. Interestingly, they found no correlation between changes in chronic diseases and shifts in loneliness levels.
+
+    In the second category of research papers on loneliness, the following studies were chosen for their use of pandemic-related data. Starting with a paper by Santini et al. (2021-A)
+    The second study, by Atzendorf et al. (2022), examines the mental well-being of retired adults in various European countries during the COVID-19 pandemic, with a specific focus on loneliness and depression. The researchers utilized the SHARE Corona Survey, supplemented by the Oxford Government Response Tracker (OxGRT), to gather data on individual feelings of loneliness and depression with respect to pre-pandemic times, and on the stringency of epidemic control measures. Their methodological approach involved multilevel binary logistic regression models that incorporated both individual and country-level variables. The authors find significant differences between countries in the prevalence of increased feelings of depression and loneliness, particularly for the oldest in the sample. Specifically, the number of deaths explains 32.4\% of the country variance in depression and 20.7\% in loneliness.
+    The third study, conducted by Arpino et al. (2022), assesses the effects of the COVID-19 pandemic on loneliness in older adults. It specifically explores how variables such as childlessness and lack of a partner contribute to feelings of loneliness. The researchers chose to use the most recent wave of the SHARE dataset for their analysis. Employing a logistic model, they focused on the binary outcome variable of 'loneliness.' Their findings reveal that 11.6\% of respondents felt lonelier during the pandemic, while the overall prevalence of depression rose by 0.8\%. Being childless or unpartnered was a significant risk factor for increased feelings of loneliness. 
+
+    Finally, a paper by Santini et al. (2020) stood out by addressing endogeneity in the analysis of the relationship between social disconnectedness, perceived isolation, and symptoms of depression and anxiety in older adults using longitudinal data from the National Social Life, Health, and Aging Project (NSHAP) in the USA. 
+    The method of choice is a random intercept cross-lag panel model with maximum likelihood estimation. According to the authors, this approach aims to establish whether the associations might have been obtained spuriously based on stable third variable traits that were not controlled for. The authors also acknowledge the potential for measurement error, noting that results could vary if mental health were assessed through clinical evaluations rather than screening tools. Additionally, they recognize unaccounted-for confounders like stressful life events or a family history of mental disorders. 
+    Their findings indicate that social disconnectedness leads to perceived isolation, which subsequently predicts depression and anxiety. To address concerns of reverse causality, the authors also explored the reverse relationships between variables and found evidence supporting bi-directional influences.
+
+
+\subsection{Mental Health and Social Networks}
+    %   description of SN (how populated a network is, proximity, strengh of connections)
+    An individual's social network can be characterized by three key dimensions: the quantity of connections, the quality of those connections, and the geographical proximity to other network members. The quality and strength of social connections, along with the extent of social support received, have a direct impact on emotional well-being and psychological resilience. A person's social network serves as a reservoir for a sense of belonging, self-esteem, and access to valuable information and resources (WHO, 2022).
+    Consequently, the qualities of an individual's social network are closely tied to their mental health, which in turn affects their ability to build and maintain meaningful connections. 
+
+    %   shiovitz    2010
+    
+
+    %   gu          2020
+
+    %   santini     2021-B
+
+    %   coleman     2022
+
+\subsection{Mental Health and Social Capital}
+    %   sirven debrand  2012
+
+    %   murayama        2013
+
+    %   riumallo        2014
+
+    %   eshan de silva  2015
+
+    %   landestedt      2016
+
+    %   cohen cline     2018
+
+    %   adams prassl    2022
+
+
+
+
 
 
 \subsection{GAPS IN THE LITERATURE: Comparative Analysis}
