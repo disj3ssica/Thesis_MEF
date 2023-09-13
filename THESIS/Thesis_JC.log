@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.1)  13 SEP 2023 20:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.1)  13 SEP 2023 20:03
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -480,7 +480,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-<GRAPHS/logounipd.png, id=88, 1204.5pt x 1204.5pt>
+<GRAPHS/logounipd.png, id=84, 1204.5pt x 1204.5pt>
 File: GRAPHS/logounipd.png Graphic file (type png)
 <use GRAPHS/logounipd.png>
 Package pdftex.def Info: GRAPHS/logounipd.png  used on input line 35.
@@ -493,7 +493,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 
 {c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./GRAPHS/logounipd.png>]
-<GRAPHS/firma_Jessica_Cremonese.jpg, id=97, 1111.90407pt x 441.14813pt>
+<GRAPHS/firma_Jessica_Cremonese.jpg, id=93, 1111.90407pt x 441.14813pt>
 File: GRAPHS/firma_Jessica_Cremonese.jpg Graphic file (type jpg)
 <use GRAPHS/firma_Jessica_Cremonese.jpg>
 Package pdftex.def Info: GRAPHS/firma_Jessica_Cremonese.jpg  used on input line 81.
@@ -546,7 +546,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 ]
 Chapter 1.
 [3] [4]
-<GRAPHS/anxiety_depression_100_rate_2018_2019.png, id=153, 691.164pt x 312.732pt>
+<GRAPHS/anxiety_depression_100_rate_2018_2019.png, id=148, 691.164pt x 312.732pt>
 File: GRAPHS/anxiety_depression_100_rate_2018_2019.png Graphic file (type png)
 <use GRAPHS/anxiety_depression_100_rate_2018_2019.png>
 Package pdftex.def Info: GRAPHS/anxiety_depression_100_rate_2018_2019.png  used on input line 53.
@@ -670,21 +670,21 @@ Chapter 9.
 
 ] (./Thesis_JC.aux (./0introduction.aux) (./1mentalhealth.aux) (./2researchquestion.aux) (./3data.aux) (./4strategy.aux) (./5estimation.aux) (./6discussion.aux) (./7conclusion.aux) (./8references.aux) (./9appendix.aux))
 Package rerunfilecheck Info: File `Thesis_JC.out' has not changed.
-(rerunfilecheck)             Checksum: 39910C609E62268EC48A57501326DDFD;3419.
+(rerunfilecheck)             Checksum: 072A9FDDE53A7F040233501491DA493B;3255.
  ) 
 Here is how much of TeX's memory you used:
- 13222 strings out of 476024
- 209075 string characters out of 5794017
- 1860382 words of memory out of 5000000
- 33216 multiletter control sequences out of 15000+600000
+ 13220 strings out of 476024
+ 209021 string characters out of 5794017
+ 1861382 words of memory out of 5000000
+ 33215 multiletter control sequences out of 15000+600000
  536360 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 273i,6n,250p,1427b,2968s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 273i,6n,250p,1395b,2968s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2022/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Thesis_JC.pdf (42 pages, 700970 bytes).
+Output written on Thesis_JC.pdf (42 pages, 700755 bytes).
 PDF statistics:
- 466 PDF objects out of 1000 (max. 8388607)
- 402 compressed objects within 5 object streams
- 166 named destinations out of 1000 (max. 500000)
- 184 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 460 PDF objects out of 1000 (max. 8388607)
+ 397 compressed objects within 4 object streams
+ 165 named destinations out of 1000 (max. 500000)
+ 176 words of extra memory for PDF output out of 10000 (max. 10000000)
 
